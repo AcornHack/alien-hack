@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Alien Hack</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+      function startGame(difficulty) {
+		  if (difficulty == 1) {
+			  window.location="Level1.html"; //This needs to be the name of the levelone page
+		  } else {
+			  window.location="FeatureNotAvailable.html";
+		  }
+      }
+  </script>
+  
+</head>
+
+<body>
+    <div class="content"> 
+          <div class="menubutton1"> 
+            <img onclick="startGame(1);" src="Images/alien-hack-master/button.png" width="149" height="42" alt=""/>
+          </div>
+          <div class="menubutton2">
+            <img onclick="startGame(2);"src="Images/alien-hack-master/button (1).png" width="202" height="42" alt=""/>
+          </div>
+          <div class="menubutton3">
+            <img onclick="startGame(3);"src="Images/alien-hack-master/button (2).png" width="159" height="42" alt=""/>
+          </div>   
+      </div><!--End of main content div -->
+</body>
+</html>
